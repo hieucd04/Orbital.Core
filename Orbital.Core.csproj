@@ -5,7 +5,7 @@
     <PackageVersion>1.0.0-alpha</PackageVersion>
     <Description>Orbital.Core</Description>
     <Copyright>Copyright © 2021 Cù Đức Hiếu</Copyright>
-    <PackageLicenseUrl>https://github.com/hieucd04/Orbital.Core/blob/main/LICENSE</PackageLicenseUrl>
+    <PackageLicense>https://github.com/hieucd04/Orbital.Core/blob/main/LICENSE</PackageLicense>
     <RepositoryUrl>https://github.com/hieucd04/Orbital.Core</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
