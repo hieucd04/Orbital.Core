@@ -36,5 +36,5 @@ jobs:
       run: dotnet restore
 
     - name: Pack
-      run: dotnet pack Orbital.Web.csproj --no-restore -c Release
+      run: dotnet pack Orbital.Core.csproj --no-restore -c Release
 
