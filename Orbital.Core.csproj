@@ -47,5 +47,8 @@
 
   <ItemGroup>
     <None Include=".github\**" />
+    <None Update=".gitignore" Link=".github/.gitignore" />
+    <None Update="README.md" Link=".github/README.md" />
+    <None Update="LICENSE" Link=".github/.LICENSE" />
   </ItemGroup>
 </Project>
