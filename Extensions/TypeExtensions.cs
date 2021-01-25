@@ -54,7 +54,7 @@ namespace Orbital.Core
             if (type == typeof(DateTimeOffset)) return SqlDbType.DateTimeOffset + " (7)";
             if (type == typeof(byte[])) return SqlDbType.VarBinary + " (MAX)";
             if (type == typeof(object)) return SqlDbType.Variant.ToString();
-            throw new ArgumentOutOfRangeException();
+            throw new ArgumentOutOfRangeException(nameof(type));
         }
 
         public static bool IsAssignableTo<T>(this Type type) { return typeof(T).IsAssignableFrom(type); }

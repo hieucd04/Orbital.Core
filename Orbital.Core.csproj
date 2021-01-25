@@ -8,6 +8,8 @@
     <RepositoryUrl>https://github.com/hieucd04/Orbital.Core</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageOutputPath>$(ProjectDir)..\.nupkgs</PackageOutputPath>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
