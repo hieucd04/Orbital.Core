@@ -28,7 +28,7 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
 
     <!-- Object Validation -->
-    <PackageReference Include="FluentValidation" Version="9.4.0" />
+    <PackageReference Include="FluentValidation" Version="9.5.0" />
 
     <!-- Configuration Management -->
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
