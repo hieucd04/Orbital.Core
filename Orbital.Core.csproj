@@ -8,7 +8,7 @@
     <Copyright>Copyright © 2021 Cù Đức Hiếu</Copyright>
     <RepositoryUrl>https://github.com/hieucd04/Orbital.Core</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageOutputPath>$(ProjectDir)..\.nupkgs</PackageOutputPath>
+    <PackageOutputPath>$(ProjectDir)..\.terminal\nupkgs</PackageOutputPath>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
