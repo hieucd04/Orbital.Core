@@ -22,10 +22,16 @@ namespace Orbital.Core
             if (PathToWorkingDirectory == null)
                 throw new DirectoryNotFoundException($"Could not obtain parent directory of: {pathToEntryAssembly}");
 
+            var environmentName = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+            if (string.IsNullOrEmpty(environmentName))
+            {
+                environmentName = "Production";
+            }
+
             _configurationRoot = new ConfigurationBuilder()
                 .SetBasePath(PathToWorkingDirectory)
                 .AddJsonFile("appsettings.json", true, true)
-                .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.json", true)
+                .AddJsonFile($"appsettings.{environmentName}.json", true)
                 .Build();
         }
 
