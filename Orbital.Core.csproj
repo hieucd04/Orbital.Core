@@ -25,10 +25,10 @@
 
     <!-- JSON -->
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.10.2" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.11.0" />
 
     <!-- Object Validation -->
-    <PackageReference Include="FluentValidation" Version="10.0.4" />
+    <PackageReference Include="FluentValidation" Version="10.1.0" />
 
     <!-- Configuration Management -->
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
