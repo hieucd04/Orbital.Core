@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net5.0;</TargetFrameworks>
+    <OpenApiGenerateDocuments>false</OpenApiGenerateDocuments>
 
     <Authors>Cù Đức Hiếu</Authors>
     <PackageVersion>1.0.1-alpha</PackageVersion>
