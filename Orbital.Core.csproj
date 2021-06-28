@@ -22,7 +22,7 @@
 
     <!-- Logging -->
     <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="5.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="5.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="5.0.3" />
 
     <!-- JSON -->
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
